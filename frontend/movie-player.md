@@ -24,7 +24,7 @@ The API Handles the request by sending back an array or links to various Youtube
 1. A Playlist Section with all the available videos from the API.
 2. A Video Player Section that plays the selected video
 3. Load the newly selected video from the playlist to the video player
-4. The API requires a `Source` header so use a request interceptor to send it on every request
+4. The API requires a `Source: Web` header so use a request interceptor to send it on every request
 5. The Angular Components should communicate with each other using a Parent Child Relation and not Events. (For Ex: The Playlist and Video Player should be 2 different components ) 
 6. Add in a custom transform pipe to convert the Title of the video to Uppercase
 7. Avoid using any kind of HTML/CSS framework.
