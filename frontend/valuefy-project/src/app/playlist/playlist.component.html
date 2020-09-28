@@ -1,0 +1,9 @@
+<!-- THE VIDEO PLAYLIST -->
+<div class="vid-list-container">
+  <div class="vid-list" *ngFor='let product of products'>
+    <div class="vid-item">
+      <div class="thumb" (click)="sendData(product)">
+        <img src="{{product.poster}}"></div>
+    </div>
+  </div>
+</div>
